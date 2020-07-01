@@ -1,0 +1,144 @@
+body{
+    background-color:#1d1b38;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* header section */
+ h1{
+    color:red;
+    text-shadow:3px 2px 3px blue;
+    font-family: sans-serif;
+    font-size:3rem;
+    text-align:center;
+}
+h2{
+    text-align:center;
+    color:white;
+    font-size:3rem;
+    margin-top:0%;
+}
+.grid-x{
+ width:90%;
+ margin-left: 5%;
+ border:2px solid red;
+}
+.questions{
+    margin-top:3%;
+    color:white;
+    font-size:1.2rem;
+    margin-left:3%;
+}
+p{
+    background-color: white;
+   
+    font-size:50px;
+    margin:0;
+    height:70px;
+    width:150px;
+}
+#countdown{
+    color:blue;
+    position:fixed;
+    left:82.5%;
+    top:22%;
+    box-shadow: 2px 3px 4px red;
+    border:2px solid yellow;
+    border-radius: 20px;
+    text-align:center;
+    
+}
+.firstButton,.secondButton,.thirdButton,.fourthButton,.fifthButton{
+    border:2px solid white;
+    color:red;
+    background-color:transparent;
+    width:120px;
+    margin-left:3%;
+    height:47px;
+    font-size:1.2rem;
+    font-family:sans-serif;
+    cursor:pointer;
+    padding:10px;
+}
+Button:hover{
+    color:blue;
+    background-color:white;
+}
+.score{
+    border:2px solid blue;
+    margin-top:3%;
+    color:yellow;
+}
+.resultButton,.RresultButton{
+    border:2px solid white;
+    color:red;
+    background-color:transparent;
+    width:90%;
+    margin-left:5%;
+    height:47px;
+    font-size:1.2rem;
+    font-family:sans-serif;
+    cursor:pointer;
+    padding:10px;
+}
+a{
+    color:red;
+}
+#try{
+    border:2px solid white;
+    color:red;
+    background-color:transparent;
+    width:42.5%;
+
+    margin-left:5%;
+    margin-top:2%;
+    height:47px;
+    font-size:1.2rem;
+    font-family:sans-serif;
+    cursor:pointer;
+    padding:10px;
+}
+#next,#Rnext{
+    border:2px solid white;
+    color:red;
+    background-color:transparent;
+    width:90%;
+
+    margin-left:5%;
+    margin-top:2%;
+    height:47px;
+    font-size:1.2rem;
+    font-family:sans-serif;
+    cursor:pointer;
+    padding:10px;
+}
+
+
+@media screen and (max-width:768px){
+    h3{
+        font-size:1.2rem;
+        margin-left:1%;
+    }
+    .firstButton,.secondButton,.thirdButton,.fourthButton,.fifthButton{
+        width:60%;
+        margin-left:15%;
+        margin-top:2%;
+    }
+    #data{
+        font-size:1.5rem;
+        color:yellow;
+    }
+    #result{
+        font-size:1.8rem;
+    }
+    #countdown{
+        width:15%;
+        top:0%;
+        height:5%;
+        text-align:center;
+        font-size:1rem;
+    }
+
+
+}
